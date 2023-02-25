@@ -16,7 +16,7 @@ text = str(text.replace('  ', ' '))
 if(text.startswith('|') or text.startswith('I')):
     text = str(text[1:])
 
-with open('readme.txt', 'w') as f:
+with open('prompt.txt', 'w') as f:
     f.write(text)
 
 print(text)
